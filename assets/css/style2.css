@@ -4,7 +4,7 @@ body {
     background:
     linear-gradient(rgba(255,255,255,0.85),
     rgba(255,255,255,0.85)),
-    url('assets/File-foto/matcha-background.png');
+    url('../image/matcha-background.png');
 
     background-size: cover;
     background-position: center;
@@ -38,7 +38,7 @@ body {
     background:
     linear-gradient(rgba(0,0,0,0.5),
     rgba(0,0,0,0.5)),
-    url('assets/File-foto/matcha-background.png');
+    url('../image/matcha-background.png');
 
     background-size: cover;
     background-position: center;
@@ -96,7 +96,7 @@ footer {
     background:
     linear-gradient(rgba(0,0,0,0.5),
     rgba(0,0,0,0.5)),
-    url('assets/File-foto/matcha-background.png');
+    url('../image/matcha-background.png');
 
     color: white;
 }
