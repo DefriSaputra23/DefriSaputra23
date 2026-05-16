@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)),
-        url('image/matcha-background.png');
+        url('../image/matcha-background.png');
     background-size: cover;
     background-position: center;
     font-family: 'Inconsolata', sans-serif;
@@ -10,7 +10,7 @@ body {
 /* HERO */
 .hero {
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-        url('image/matcha-background.png');
+        url('../image/matcha-background.png');
     background-size: cover;
     background-position: center;
     color: white;
@@ -149,7 +149,7 @@ section h2 {
 /* FOOTER */
 footer {
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-        url('image/matcha-background.png');
+        url('../image/matcha-background.png');
     background-size: cover;
     background-position: center;
     color: white;
