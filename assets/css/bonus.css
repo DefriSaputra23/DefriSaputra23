@@ -1,5 +1,5 @@
 body {
-    background: url('assets/File-foto/matcha-background.png');
+    background: url(',,/image/matcha-background.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -14,7 +14,7 @@ body {
 /* HERO */
 .hero {
     background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
-        url('assets/File-foto/matcha-tabur.jpg');
+        url('../image/matcha-tabur.jpg');
 
     background-size: cover;
     background-position: center;
