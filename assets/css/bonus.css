@@ -1,0 +1,186 @@
+body {
+    background: url('assets/File-foto/matcha-background.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    font-family: 'Inconsolata', sans-serif;
+    line-height: 1.6;
+
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+        url('assets/File-foto/matcha-tabur.jpg');
+
+    background-size: cover;
+    background-position: center;
+
+    min-height: 100vh;
+    padding: 120px 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: white;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: #1b4332 !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #95d5b2 !important;
+}
+
+/* HERO TITLE */
+.hero h1 {
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* HERO TEXT */
+.hero p {
+    font-size: 24px;
+    margin-bottom: 35px;
+}
+
+/* HERO BUTTON */
+.hero .btn {
+    border-radius: 50px;
+    transition: 0.3s;
+    font-weight: bold;
+
+    padding: 12px 35px;
+    font-size: 18px;
+}
+
+.hero .btn:hover {
+    transform: scale(1.08);
+    background-color: #40916c;
+}
+
+/* CAROUSEL BUTTON */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(0.6);
+}
+
+/* HOVER CARD */
+.hover-scale {
+    transition: 0.3s;
+}
+
+.hover-scale:hover {
+    transform: scale(1.05);
+}
+
+/* ANIMATION */
+.fade-in-up {
+    animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeInUp {
+
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* SPOTIFY SECTION */
+.spotify-section {
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+
+    background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55));
+}
+
+/* SPOTIFY TITLE */
+.spotify-title {
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* SPOTIFY DESCRIPTION */
+.spotify-desc {
+    max-width: 1000px;
+    margin: auto;
+
+    margin-bottom: 40px;
+
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+/* SPOTIFY PLAYLIST CONTAINER */
+.spotify-container {
+    display: flex;
+    flex-direction: column;
+
+    gap: 30px;
+
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* SPOTIFY IFRAME */
+.spotify-container iframe {
+    width: 100%;
+    border-radius: 16px;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+}
+
+/* FOOTER */
+footer {
+    background-color: #1b4332;
+
+    padding: 20px;
+
+    color: #ffffff;
+    text-align: center;
+
+    margin-top: 0;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+
+    .hero h1 {
+        font-size: 50px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .spotify-title {
+        font-size: 45px;
+    }
+
+    .spotify-desc {
+        font-size: 16px;
+    }
+}
