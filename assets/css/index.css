@@ -10,7 +10,7 @@ body {
 /* HERO */
 .hero {
     background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
-        url('../image/matcha-background.png');
+        url('../image/matcha-index.jpeg');
 
     background-size: cover;
     background-position: center;
@@ -176,6 +176,38 @@ body {
     backdrop-filter: blur(10px);
 
     box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+
+    .hero {
+
+        min-height: 100vh;
+
+        padding: 80px 20px;
+
+        background-position: 65% center;
+        background-size: cover;
+
+    }
+
+    .hero h1 {
+        font-size: 45px;
+        line-height: 1.2;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .hero .btn {
+        width: 100%;
+        max-width: 300px;
+
+        font-size: 16px;
+    }
+
 }
 
 /* FOOTER */
